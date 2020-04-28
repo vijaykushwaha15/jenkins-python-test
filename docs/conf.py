@@ -49,6 +49,7 @@ master_doc = 'index'
 project = 'jenkins-python-test'
 copyright = "2020, Alex Cabello"
 author = "Alex Cabello"
+title = 'jenkins-python-test Documentation'
 
 # The version info for the project you're documenting, acts as replacement
 # for |version| and |release|, also used in various other places throughout
@@ -128,7 +129,7 @@ latex_elements = {
 # [howto, manual, or own class]).
 latex_documents = [
     (master_doc, 'jenkins_python_test.tex',
-     'jenkins-python-test Documentation',
+     title,
      'Alex Cabello', 'manual'),
 ]
 
@@ -139,7 +140,7 @@ latex_documents = [
 # (source start file, name, description, authors, manual section).
 man_pages = [
     (master_doc, 'jenkins_python_test',
-     'jenkins-python-test Documentation',
+     title,
      [author], 1)
 ]
 
@@ -151,7 +152,7 @@ man_pages = [
 #  dir menu entry, description, category)
 texinfo_documents = [
     (master_doc, 'jenkins_python_test',
-     'jenkins-python-test Documentation',
+     title,
      author,
      'jenkins_python_test',
      'One line description of project.',
