@@ -35,10 +35,9 @@ Jenkins Project Setup
 12. Enter ``sonar-project.properties`` in ``Path to project properties`` textbox.
 13. Enter project key and login in ``Analysis properties`` textbox. Example:
 
-``
-sonar.projectKey=jenkins-python-test
-sonar.login=ba7a9af4518eea0acb77a6b7fc19ea01a13d2f7e
-``
+::
+        sonar.projectKey=jenkins-python-test
+        sonar.login=ba7a9af4518eea0acb77a6b7fc19ea01a13d2f7e
 
 14. Click ``Save`` button.
 15. Click ``Build now`` button to verify working.
