@@ -4,10 +4,8 @@ jenkins-python-test
 
 Python project to test Jenkins and SonarQube.
 
-
 SonarQube Project Setup
 -----------------------
-
 1. Open ``http://localhost:9000``.
 2. Login with user: ``admin``, password: ``admin``.
 3. Click ``Create new project`` link.
@@ -21,10 +19,8 @@ SonarQube Project Setup
 11. Click ``Linux`` button.
 12. Copy ``sonar-scanner`` code and store somewhere secure.
 
-
 Jenkins Project Setup
 ---------------------
-
 1. Click ``create new jobs`` link.
 2. Fill in ``Enter an item name`` with ``jenkins-python-test``.
 3. Click ``Freesytle project``.
@@ -39,13 +35,11 @@ Jenkins Project Setup
 12. Enter ``sonar-project.properties`` in ``Path to project properties`` textbox.
 13. Enter project key and login in ``Analysis properties`` textbox. Example:
 
-        sonar.projectKey=jenkins-python-test
-
-        sonar.login=ba7a9af4518eea0acb77a6b7fc19ea01a13d2f7e
+sonar.projectKey=jenkins-python-test
+sonar.login=ba7a9af4518eea0acb77a6b7fc19ea01a13d2f7e
 
 14. Click ``Save`` button.
 15. Click ``Build now`` button to verify working.
 
-
-* Free software: MIT license
-* Documentation: https://jenkins-python-test.readthedocs.io.
+Free software: MIT license
+Documentation: https://jenkins-python-test.readthedocs.io.
