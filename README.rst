@@ -46,4 +46,3 @@ Jenkins Project Setup
 
 
 Free software: MIT license
-Documentation: https://jenkins-python-test.readthedocs.io.
