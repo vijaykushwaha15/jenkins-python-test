@@ -57,11 +57,11 @@ test-all: ## run tests on every Python version with tox
 	tox
 
 coverage: ## check code coverage quickly with the default Python
-	coverage erase
-	coverage run --source jenkins_python_test -m pytest tests
-	coverage report -m
-	coverage html
-	coverage xml -i
+	/home/ubuntu/.local/bin/coverage erase
+	/home/ubuntu/.local/bin/coverage run --source jenkins_python_test -m pytest tests
+	/home/ubuntu/.local/bin/coverage report -m
+	/home/ubuntu/.local/bin/coverage html
+	/home/ubuntu/.local/bin/coverage xml -i
 	$(BROWSER) htmlcov/index.html
 
 docs: ## generate Sphinx HTML documentation, including API docs
